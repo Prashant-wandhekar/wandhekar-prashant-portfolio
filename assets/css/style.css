@@ -222,40 +222,7 @@ a:hover {
   transition: all 500ms ease;
 }
 
-/*------/ Ul resect /------*/
-.ul-resect,
-.widget-tags ul,
-.widget-sidebar .list-sidebar,
-.box-comments .list-comments,
-.blog-wrapper .post-meta ul,
-.list-ico,
-.socials ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0;
-}
 
-.list-ico {
-  line-height: 2;
-}
-
-.list-ico span {
-  color: #0078ff;
-  margin-right: 10px;
-}
-
-/*------/ Ico Circle /------*/
-.ico-circle {
-  height: 100px;
-  width: 100px;
-  font-size: 2rem;
-  border-radius: 50%;
-  line-height: 1.55;
-  margin: 0 auto;
-  text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
-  display: block;
-}
 
 /*------/ Owl Carousel /------*/
 .owl-theme .owl-dots {
