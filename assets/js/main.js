@@ -361,17 +361,6 @@
     });
   }
 
-
-
-  /**
-   * Preloader
-   */
- // Hide preloader when the page fully loads
- window.addEventListener("load", function () {
-  document.querySelector(".preloader").classList.add("hide");
-});
-
-
   // skill
 
     $(document).ready(function(){
