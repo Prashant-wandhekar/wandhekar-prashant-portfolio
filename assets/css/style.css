@@ -355,51 +355,6 @@ a:hover {
   100% { transform: translateY(0); }
 }
 
-
-/*------/ Prelaoder /------*/
-.preloader {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background: #111;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: opacity 1.0s ease, visibility 0.5s ease;
-  z-index: 9999;
-}
-
-.preloader.hide {
-  opacity: 0;
-  visibility: hidden;
-}
-
-.loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
-}
-
-.dot {
-  width: 12px;
-  height: 12px;
-  background: #6c5ce7;
-  border-radius: 50%;
-  animation: bounce 1.5s infinite ease-in-out;
-}
-
-.dot:nth-child(1) { animation-delay: 0s; }
-.dot:nth-child(2) { animation-delay: 0.2s; }
-.dot:nth-child(3) { animation-delay: 0.4s; }
-
-@keyframes bounce {
-  0%, 80%, 100% { transform: translateY(0); }
-  40% { transform: translateY(-15px); }
-}
-
 /*------/ Button /------*/
 .button {
   display: inline-block;
